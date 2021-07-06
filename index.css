@@ -4,7 +4,7 @@ body{
 .orange-color{
     color: orange;
 }
-section{
+.hedar-flex{
     display: flex;
     margin-bottom: 100px;
 }
@@ -26,4 +26,24 @@ section{
 img{
     height: 400px;
     width: 400px;
+}
+.background{
+    background-image: url(images/Frame\ 58.jpg);
+}
+.box-center{
+    text-align: center;
+    padding: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.food-recipie{
+    margin: 2%;
+    width: 40%;
+   
+    box-shadow: 10px 1px 40px grey;
+    border-radius: 15px;
+}
+.food-recipie img{
+    border-radius:15px ;
+    padding: 20px;
 }
