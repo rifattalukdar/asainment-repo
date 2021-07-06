@@ -1,5 +1,8 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
+}
+.font-big{
+    font-size: 50px;
 }
 .orange-color{
     color: orange;
@@ -11,6 +14,7 @@ body{
 .half-widh{
     width: 50%;
     padding-left: 2%;
+    margin-top: 100px;
 }
 .half-widh img{
     width: 80%;
@@ -20,24 +24,24 @@ body{
     background-image: linear-gradient(orange,tomato);
     padding: 10px 40px;
     color: white;
-    border-radius: 5px;
     font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 5px 3px 5px gray;
 }
-img{
-    height: 400px;
-    width: 400px;
-}
+
 .background{
     background-image: url(images/Frame\ 58.jpg);
 }
 .box-center{
     text-align: center;
-    padding: 10px;
+    padding: 10px 40px;
     margin-right: 25%;
     margin-left: 25%;
 }
 .food-recipie{
     margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 40%;
    
     box-shadow: 10px 1px 40px grey;
@@ -46,4 +50,13 @@ img{
 .food-recipie img{
     border-radius:15px ;
     padding: 20px;
+}
+.footer{
+    padding: 3%;
+    background-color: #0A0D16;
+    text-align: center;
+    color: white;
+}
+.gray-color{
+    color:#292c3b;
 }
