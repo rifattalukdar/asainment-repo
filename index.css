@@ -23,3 +23,7 @@ section{
     border-radius: 5px;
     font-weight: 700;
 }
+img{
+    height: 400px;
+    width: 400px;
+}
